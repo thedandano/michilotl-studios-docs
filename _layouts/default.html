@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="site-nav" aria-label="Primary">
+        <a class="brand" href="{{ '/' | relative_url }}">Michilotl Studios Docs</a>
+        <div class="nav-links">
+          <a href="{{ '/apps/llm-bench/' | relative_url }}">LLM Bench</a>
+          <a href="{{ '/apps/llm-bench/privacy/' | relative_url }}">Privacy</a>
+          <a href="{{ '/apps/llm-bench/support/' | relative_url }}">Support</a>
+        </div>
+      </nav>
+    </header>
+    <main class="page">
+      <article class="content">
+        {{ content }}
+      </article>
+    </main>
+    <footer class="site-footer">
+      <p>&copy; {{ site.time | date: '%Y' }} Michilotl Studios. LLM Bench is a Michilotl Studios app.</p>
+    </footer>
+  </body>
+</html>

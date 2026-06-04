@@ -1,0 +1,7 @@
+title: Michilotl Studios Docs
+description: Public support and policy pages for Michilotl Studios apps.
+url: "https://thedandano.github.io"
+baseurl: "/michilotl-studios-docs"
+markdown: kramdown
+exclude:
+  - README.md
