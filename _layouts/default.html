@@ -8,22 +8,12 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   </head>
   <body>
-    <header class="site-header">
-      <nav class="site-nav" aria-label="Primary">
-        <a class="brand" href="{{ '/' | relative_url }}">Michilotl Studios Docs</a>
-        <div class="nav-links">
-          <a href="{{ '/apps/llm-bench/' | relative_url }}">LLM Bench</a>
-          <a href="{{ '/apps/lockin/' | relative_url }}">LockIn</a>
-        </div>
-      </nav>
-    </header>
+    {% include header.html %}
     <main class="page">
       <article class="content">
         {{ content }}
       </article>
     </main>
-    <footer class="site-footer">
-      <p>&copy; {{ site.time | date: '%Y' }} Michilotl Studios.</p>
-    </footer>
+    {% include footer.html %}
   </body>
 </html>
