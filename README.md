@@ -6,6 +6,9 @@ Public GitHub Pages site for Michilotl Studios app support and policy pages.
 
 - LLM Bench privacy: `https://thedandano.github.io/michilotl-studios-docs/apps/llm-bench/privacy/`
 - LLM Bench support: `https://thedandano.github.io/michilotl-studios-docs/apps/llm-bench/support/`
+- LockIn privacy: `https://thedandano.github.io/michilotl-studios-docs/apps/lockin/privacy/`
+- LockIn terms: `https://thedandano.github.io/michilotl-studios-docs/apps/lockin/terms/`
+- LockIn support: `https://thedandano.github.io/michilotl-studios-docs/apps/lockin/support/`
 
 ## Drafts
 
